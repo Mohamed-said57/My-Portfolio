@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohamed Said Ezzeldeen Mohamed - Machine Learning Engineer & Data Analyst Portfolio">
+    <meta name="keywords" content="Machine Learning, Data Analysis, Python, SQL, AI, Data Science">
+    <meta name="author" content="Mohamed Said Ezzeldeen Mohamed">
+    <title>Mohamed Said | ML Engineer & Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Toggle Button -->
+    <button id="langToggle" class="lang-toggle" onclick="toggleLanguage()">العربية</button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Mohamed Said</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#about" class="nav-link" data-en="About" data-ar="عني">About</a></li>
+                <li><a href="#education" class="nav-link" data-en="Education" data-ar="التعليم">Education</a></li>
+                <li><a href="#skills" class="nav-link" data-en="Skills" data-ar="المهارات">Skills</a></li>
+                <li><a href="#experience" class="nav-link" data-en="Experience" data-ar="الخبرة">Experience</a></li>
+                <li><a href="#services" class="nav-link" data-en="Services" data-ar="الخدمات">Services</a></li>
+                <li><a href="#projects" class="nav-link" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-ar="تواصل">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-en="Hi, I'm Mohamed Said Ezzeldeen Mohamed" data-ar="مرحباً، أنا محمد سعيد عز الدين محمد">Hi, I'm Mohamed Said Ezzeldeen Mohamed</h1>
+                    <h2 class="hero-subtitle" data-en="Machine Learning Engineer & Data Analyst" data-ar="مهندس تعلم آلي ومحلل بيانات">Machine Learning Engineer & Data Analyst</h2>
+                    <p class="hero-description" data-en="Transforming data into actionable insights and building intelligent systems that solve real-world problems" data-ar="تحويل البيانات إلى رؤى قابلة للتنفيذ وبناء أنظمة ذكية تحل مشاكل العالم الحقيقي">Transforming data into actionable insights and building intelligent systems that solve real-world problems</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" data-en="View Projects" data-ar="عرض المشاريع">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary" data-en="Contact Me" data-ar="تواصل معي">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- ADD YOUR PHOTO HERE -->
+                    <!-- Replace the placeholder with your professional photo -->
+                    <div class="photo-placeholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Me" data-ar="عني">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="I am a passionate Machine Learning enthusiast and Data Analyst with a strong foundation in turning complex data into meaningful insights. Currently advancing my skills through the Digital Egypt Pioneers Initiative (DEPI), where I'm mastering cutting-edge technologies in data science and machine learning." data-ar="أنا شغوف بالتعلم الآلي ومحلل بيانات ولدي أساس قوي في تحويل البيانات المعقدة إلى رؤى ذات مغزى. أقوم حالياً بتطوير مهاراتي من خلال مبادرة روّاد مصر الرقمية (DEPI)، حيث أتقن أحدث التقنيات في علوم البيانات والتعلم الآلي.">
+                        I am a passionate Machine Learning enthusiast and Data Analyst with a strong foundation in turning complex data into meaningful insights. Currently advancing my skills through the Digital Egypt Pioneers Initiative (DEPI), where I'm mastering cutting-edge technologies in data science and machine learning.
+                    </p>
+                    <p data-en="My approach combines analytical thinking with practical problem-solving to develop data-driven solutions. I specialize in Python programming, statistical analysis, and building predictive models that drive business value. I'm committed to continuous learning and staying at the forefront of AI and data science innovations." data-ar="يجمع نهجي بين التفكير التحليلي وحل المشكلات العملي لتطوير حلول مدفوعة بالبيانات. أتخصص في برمجة بايثون، والتحليل الإحصائي، وبناء نماذج تنبؤية تدفع قيمة الأعمال. أنا ملتزم بالتعلم المستمر والبقاء في طليعة ابتكارات الذكاء الاصطناعي وعلوم البيانات.">
+                        My approach combines analytical thinking with practical problem-solving to develop data-driven solutions. I specialize in Python programming, statistical analysis, and building predictive models that drive business value. I'm committed to continuous learning and staying at the forefront of AI and data science innovations.
+                    </p>
+                    <p data-en="I am actively seeking opportunities as a Machine Learning Engineer or Data Analyst where I can contribute to innovative projects and grow alongside talented teams." data-ar="أبحث بنشاط عن فرص كمهندس تعلم آلي أو محلل بيانات حيث يمكنني المساهمة في مشاريع مبتكرة والنمو جنباً إلى جنب مع فرق موهوبة.">
+                        I am actively seeking opportunities as a Machine Learning Engineer or Data Analyst where I can contribute to innovative projects and grow alongside talented teams.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-en="Education & Training" data-ar="التعليم والتدريب">Education & Training</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                        </svg>
+                    </div>
+                    <div class="education-details">
+                        <h3 data-en="Digital Egypt Pioneers Initiative (DEPI)" data-ar="مبادرة روّاد مصر الرقمية (DEPI)">Digital Egypt Pioneers Initiative (DEPI)</h3>
+                        <p class="education-program" data-en="Machine Learning & Data Analysis Track" data-ar="مسار التعلم الآلي وتحليل البيانات">Machine Learning & Data Analysis Track</p>
+                        <p class="education-date">
+                            <!-- UPDATE WITH YOUR ACTUAL DATES -->
+                            <span data-en="2024 - Present" data-ar="2024 - الآن">2024 - Present</span>
+                        </p>
+                        <ul class="education-list">
+                            <li data-en="Advanced Python programming for data science and machine learning" data-ar="برمجة بايثون المتقدمة لعلوم البيانات والتعلم الآلي">Advanced Python programming for data science and machine learning</li>
+                            <li data-en="SQL database management and complex query optimization" data-ar="إدارة قواعد بيانات SQL وتحسين الاستعلامات المعقدة">SQL database management and complex query optimization</li>
+                            <li data-en="Data manipulation and analysis with Pandas and NumPy" data-ar="معالجة وتحليل البيانات باستخدام Pandas و NumPy">Data manipulation and analysis with Pandas and NumPy</li>
+                            <li data-en="Machine Learning fundamentals with Scikit-learn" data-ar="أساسيات التعلم الآلي باستخدام Scikit-learn">Machine Learning fundamentals with Scikit-learn</li>
+                            <li data-en="Statistical analysis and data visualization techniques" data-ar="تقنيات التحليل الإحصائي وتصور البيانات">Statistical analysis and data visualization techniques</li>
+                            <li data-en="Hands-on projects and real-world case studies" data-ar="مشاريع عملية ودراسات حالة من العالم الحقيقي">Hands-on projects and real-world case studies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-en="Technical Skills" data-ar="المهارات التقنية">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Programming & Tools -->
+                <div class="skill-category">
+                    <h3 data-en="Programming & Tools" data-ar="البرمجة والأدوات">Programming & Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Python" data-ar="بايثون">Python</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="SQL" data-ar="SQL">SQL</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Pandas & NumPy" data-ar="Pandas و NumPy">Pandas & NumPy</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="skill-category">
+                    <h3 data-en="Machine Learning" data-ar="التعلم الآلي">Machine Learning</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Scikit-learn" data-ar="Scikit-learn">Scikit-learn</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Supervised Learning" data-ar="التعلم الموجّه">Supervised Learning</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Model Evaluation" data-ar="تقييم النماذج">Model Evaluation</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Analysis -->
+                <div class="skill-category">
+                    <h3 data-en="Data Analysis" data-ar="تحليل البيانات">Data Analysis</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Statistical Analysis" data-ar="التحليل الإحصائي">Statistical Analysis</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Data Visualization" data-ar="تصور البيانات">Data Visualization</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Data Cleaning" data-ar="تنظيف البيانات">Data Cleaning</span>
+                            <span>87%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 87%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <h3 data-en="Professional Skills" data-ar="المهارات المهنية">Professional Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Analytical Thinking" data-ar="التفكير التحليلي">Analytical Thinking</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Problem Solving" data-ar="حل المشكلات">Problem Solving</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-en="Continuous Learning" data-ar="التعلم المستمر">Continuous Learning</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-en="Experience & Training" data-ar="الخبرة والتدريب">Experience & Training</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Machine Learning Trainee" data-ar="متدرب تعلم آلي">Machine Learning Trainee</h3>
+                        <h4 data-en="Digital Egypt Pioneers Initiative (DEPI)" data-ar="مبادرة روّاد مصر الرقمية">Digital Egypt Pioneers Initiative (DEPI)</h4>
+                        <p class="timeline-date">
+                            <!-- UPDATE WITH YOUR ACTUAL DATES -->
+                            <span data-en="2024 - Present" data-ar="2024 - الآن">2024 - Present</span>
+                        </p>
+                        <ul>
+                            <li data-en="Developed end-to-end machine learning projects using Python and Scikit-learn" data-ar="تطوير مشاريع التعلم الآلي الشاملة باستخدام بايثون و Scikit-learn">Developed end-to-end machine learning projects using Python and Scikit-learn</li>
+                            <li data-en="Performed comprehensive data analysis and visualization on real-world datasets" data-ar="إجراء تحليل شامل للبيانات وتصويرها على مجموعات بيانات من العالم الحقيقي">Performed comprehensive data analysis and visualization on real-world datasets</li>
+                            <li data-en="Built predictive models achieving high accuracy for classification and regression tasks" data-ar="بناء نماذج تنبؤية تحقق دقة عالية لمهام التصنيف والانحدار">Built predictive models achieving high accuracy for classification and regression tasks</li>
+                            <li data-en="Collaborated on team projects applying agile methodologies" data-ar="التعاون في مشاريع الفريق بتطبيق منهجيات أجايل">Collaborated on team projects applying agile methodologies</li>
+                            <li data-en="Utilized SQL for data extraction, transformation, and complex queries" data-ar="استخدام SQL لاستخراج البيانات وتحويلها والاستعلامات المعقدة">Utilized SQL for data extraction, transformation, and complex queries</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Data Analysis Projects" data-ar="مشاريع تحليل البيانات">Data Analysis Projects</h3>
+                        <h4 data-en="DEPI Training Program" data-ar="برنامج تدريب DEPI">DEPI Training Program</h4>
+                        <p class="timeline-date">
+                            <!-- UPDATE WITH YOUR ACTUAL DATES -->
+                            <span data-en="2024" data-ar="2024">2024</span>
+                        </p>
+                        <ul>
+                            <li data-en="Conducted exploratory data analysis (EDA) on multiple datasets using Pandas and NumPy" data-ar="إجراء تحليل استكشافي للبيانات على مجموعات بيانات متعددة باستخدام Pandas و NumPy">Conducted exploratory data analysis (EDA) on multiple datasets using Pandas and NumPy</li>
+                            <li data-en="Created insightful visualizations to communicate data-driven findings" data-ar="إنشاء تصورات ثاقبة لتوصيل النتائج المدفوعة بالبيانات">Created insightful visualizations to communicate data-driven findings</li>
+                            <li data-en="Implemented data preprocessing pipelines for improved model performance" data-ar="تنفيذ خطوط معالجة البيانات الأولية لتحسين أداء النموذج">Implemented data preprocessing pipelines for improved model performance</li>
+                            <li data-en="Applied statistical methods to validate hypotheses and derive insights" data-ar="تطبيق الطرق الإحصائية للتحقق من الفرضيات واستخلاص الرؤى">Applied statistical methods to validate hypotheses and derive insights</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-en="Services I Offer" data-ar="الخدمات التي أقدمها">Services I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3 data-en="Data Analysis" data-ar="تحليل البيانات">Data Analysis</h3>
+                    <p data-en="Transform raw data into actionable insights through comprehensive statistical analysis, exploratory data analysis (EDA), and advanced data visualization techniques." data-ar="تحويل البيانات الخام إلى رؤى قابلة للتنفيذ من خلال التحليل الإحصائي الشامل والتحليل الاستكشافي للبيانات وتقنيات تصور البيانات المتقدمة.">Transform raw data into actionable insights through comprehensive statistical analysis, exploratory data analysis (EDA), and advanced data visualization techniques.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                        </svg>
+                    </div>
+                    <h3 data-en="Machine Learning Model Development" data-ar="تطوير نماذج التعلم الآلي">Machine Learning Model Development</h3>
+                    <p data-en="Design and implement custom machine learning models tailored to your business needs, including classification, regression, and clustering algorithms using Scikit-learn." data-ar="تصميم وتنفيذ نماذج تعلم آلي مخصصة تناسب احتياجات عملك، بما في ذلك خوارزميات التصنيف والانحدار والتجميع باستخدام Scikit-learn.">Design and implement custom machine learning models tailored to your business needs, including classification, regression, and clustering algorithms using Scikit-learn.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3 data-en="Predictive Analytics" data-ar="التحليلات التنبؤية">Predictive Analytics</h3>
+                    <p data-en="Build predictive models to forecast trends, customer behavior, and business outcomes. Leverage historical data to make informed decisions about the future." data-ar="بناء نماذج تنبؤية للتنبؤ بالاتجاهات وسلوك العملاء ونتائج الأعمال. الاستفادة من البيانات التاريخية لاتخاذ قرارات مستنيرة حول المستقبل.">Build predictive models to forecast trends, customer behavior, and business outcomes. Leverage historical data to make informed decisions about the future.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <h3 data-en="Data Visualization" data-ar="تصور البيانات">Data Visualization</h3>
+                    <p data-en="Create compelling visual representations of complex datasets that tell your data story clearly. Build interactive dashboards and reports for better decision-making." data-ar="إنشاء تمثيلات مرئية مقنعة لمجموعات البيانات المعقدة التي تروي قصة بياناتك بوضوح. بناء لوحات معلومات تفاعلية وتقارير لاتخاذ قرارات أفضل.">Create compelling visual representations of complex datasets that tell your data story clearly. Build interactive dashboards and reports for better decision-making.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="Featured Projects" data-ar="المشاريع المميزة">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 data-en="Customer Churn Prediction" data-ar="التنبؤ بتراجع العملاء">Customer Churn Prediction</h3>
+                    </div>
+                    <div class="project-content">
+                        <p data-en="Developed a machine learning model to predict customer churn using classification algorithms. Achieved 87% accuracy through feature engineering and hyperparameter tuning with Scikit-learn." data-ar="تطوير نموذج تعلم آلي للتنبؤ بتراجع العملاء باستخدام خوارزميات التصنيف. تحقيق دقة 87٪ من خلال هندسة الميزات وضبط المعاملات الفائقة باستخدام Scikit-learn.">Developed a machine learning model to predict customer churn using classification algorithms. Achieved 87% accuracy through feature engineering and hyperparameter tuning with Scikit-learn.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>Classification</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <!-- REPLACE WITH YOUR REAL GITHUB LINK -->
+                        <a href="https://github.com/your-username/customer-churn-prediction" target="_blank" class="project-link" data-en="View on GitHub" data-ar="عرض على GitHub">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 data-en="Sales Forecasting System" data-ar="نظام التنبؤ بالمبيعات">Sales Forecasting System</h3>
+                    </div>
+                    <div class="project-content">
+                        <p data-en="Built a time-series forecasting model to predict future sales trends. Implemented data preprocessing, feature extraction, and model validation techniques using Python and NumPy." data-ar="بناء نموذج للتنبؤ بالسلاسل الزمنية للتنبؤ باتجاهات المبيعات المستقبلية. تنفيذ تقنيات المعالجة الأولية للبيانات واستخراج الميزات والتحقق من صحة النموذج باستخدام بايثون و NumPy.">Built a time-series forecasting model to predict future sales trends. Implemented data preprocessing, feature extraction, and model validation techniques using Python and NumPy.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>NumPy</span>
+                            <span>Time Series</span>
+                            <span>Regression</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <!-- REPLACE WITH YOUR REAL GITHUB LINK -->
+                        <a href="https://github.com/your-username/sales-forecasting" target="_blank" class="project-link" data-en="View on GitHub" data-ar="عرض على GitHub">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 data-en="E-commerce Data Analysis" data-ar="تحليل بيانات التجارة الإلكترونية">E-commerce Data Analysis</h3>
+                    </div>
+                    <div class="project-content">
+                        <p data-en="Performed comprehensive exploratory data analysis on e-commerce transaction data. Identified key patterns, customer segments, and revenue drivers using Pandas and SQL queries." data-ar="إجراء تحليل استكشافي شامل للبيانات على بيانات معاملات التجارة الإلكترونية. تحديد الأنماط الرئيسية وشرائح العملاء ومحركات الإيرادات باستخدام Pandas واستعلامات SQL.">Performed comprehensive exploratory data analysis on e-commerce transaction data. Identified key patterns, customer segments, and revenue drivers using Pandas and SQL queries.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>SQL</span>
+                            <span>Data Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <!-- REPLACE WITH YOUR REAL GITHUB LINK -->
+                        <a href="https://github.com/your-username/ecommerce-analysis" target="_blank" class="project-link" data-en="View on GitHub" data-ar="عرض على GitHub">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 data-en="Medical Diagnosis Classifier" data-ar="مصنف التشخيص الطبي">Medical Diagnosis Classifier</h3>
+                    </div>
+                    <div class="project-content">
+                        <p data-en="Created a classification model to assist in medical diagnosis based on patient symptoms. Utilized ensemble methods and cross-validation to ensure robust model performance." data-ar="إنشاء نموذج تصنيف للمساعدة في التشخيص الطبي بناءً على أعراض المرضى. استخدام أساليب التجميع والتحقق المتقاطع لضمان أداء نموذج قوي.">Created a classification model to assist in medical diagnosis based on patient symptoms. Utilized ensemble methods and cross-validation to ensure robust model performance.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>ML</span>
+                            <span>Healthcare</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <!-- REPLACE WITH YOUR REAL GITHUB LINK -->
+                        <a href="https://github.com/your-username/medical-diagnosis" target="_blank" class="project-link" data-en="View on GitHub" data-ar="عرض على GitHub">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 data-en="Social Media Sentiment Analysis" data-ar="تحليل مشاعر وسائل التواصل الاجتماعي">Social Media Sentiment Analysis</h3>
+                    </div>
+                    <div class="project-content">
+                        <p data-en="Analyzed sentiment patterns in social media data to understand public opinion. Applied natural language processing techniques and machine learning for sentiment classification." data-ar="تحليل أنماط المشاعر في بيانات وسائل التواصل الاجتماعي لفهم الرأي العام. تطبيق تقنيات معالجة اللغة الطبيعية والتعلم الآلي لتصنيف المشاعر.">Analyzed sentiment patterns in social media data to understand public opinion. Applied natural language processing techniques and machine learning for sentiment classification.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Sentiment Analysis</span>
+                            <span>ML</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <!-- REPLACE WITH YOUR REAL GITHUB LINK -->
+                        <a href="https://github.com/your-username/sentiment-analysis" target="_blank" class="project-link" data-en="View on GitHub" data-ar="عرض على GitHub">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 data-en="Real Estate Price Predictor" data-ar="متنبئ أسعار العقارات">Real Estate Price Predictor</h3>
+                    </div>
+                    <div class="project-content">
+                        <p data-en="Developed a regression model to predict real estate prices based on property features. Implemented feature scaling, outlier detection, and model evaluation metrics." data-ar="تطوير نموذج انحدار للتنبؤ بأسعار العقارات بناءً على ميزات العقار. تنفيذ قياس الميزات واكتشاف القيم الشاذة ومقاييس تقييم النموذج.">Developed a regression model to predict real estate prices based on property features. Implemented feature scaling, outlier detection, and model evaluation metrics.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Regression</span>
+                            <span>Data Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <!-- REPLACE WITH YOUR REAL GITHUB LINK -->
+                        <a href="https://github.com/your-username/real-estate-predictor" target="_blank" class="project-link" data-en="View on GitHub" data-ar="عرض على GitHub">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get In Touch" data-ar="تواصل معي">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-en="Let's Connect" data-ar="لنتواصل">Let's Connect</h3>
+                    <p data-en="I'm always interested in hearing about new opportunities, collaborations, or just having a conversation about data science and machine learning. Feel free to reach out!" data-ar="أنا دائماً مهتم بسماع فرص جديدة أو تعاونات أو مجرد إجراء محادثة حول علوم البيانات والتعلم الآلي. لا تتردد في التواصل!">I'm always interested in hearing about new opportunities, collaborations, or just having a conversation about data science and machine learning. Feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <!-- REPLACE WITH YOUR EMAIL -->
+                            <span>your.email@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <!-- REPLACE WITH YOUR PHONE -->
+                            <span>+20 XXX XXX XXXX</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            <!-- REPLACE WITH YOUR GITHUB -->
+                            <a href="https://github.com/your-username" target="_blank">github.com/your-username</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" data-en="Your Name" data-ar="اسمك">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Mohamed Said">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-en="Your Email" data-ar="بريدك الإلكتروني">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-en="Your Message" data-ar="رسالتك">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or opportunity..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-en="Send Message" data-ar="إرسال الرسالة">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© 2024 Mohamed Said Ezzeldeen Mohamed. All rights reserved." data-ar="© 2024 محمد سعيد عز الدين محمد. جميع الحقوق محفوظة.">© 2024 Mohamed Said Ezzeldeen Mohamed. All rights reserved.</p>
+            <p data-en="Built with passion for data and machine learning" data-ar="مصمم بشغف للبيانات والتعلم الآلي">Built with passion for data and machine learning</p>
+        </div>
+    </footer>
+
+    <!-- Success Popup -->
+    <div id="successPopup" class="popup">
+        <div class="popup-content">
+            <span class="popup-close" onclick="closePopup()">&times;</span>
+            <div class="popup-icon">✓</div>
+            <h3 data-en="Message Sent Successfully!" data-ar="تم إرسال الرسالة بنجاح!">Message Sent Successfully!</h3>
+            <p data-en="Your message has been sent successfully. We will reply soon." data-ar="تم إرسال رسالتك بنجاح. سوف نرد قريباً.">Your message has been sent successfully. We will reply soon.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
