@@ -282,6 +282,13 @@ section {
     align-items: center;
 }
 
+.hero-photo {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
 .photo-placeholder {
     width: 300px;
     height: 300px;
